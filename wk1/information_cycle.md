@@ -270,7 +270,7 @@ Note the chipset to the left of the CPU in the motherboard below:
 
 ​	
 
-### CPU in mode detail
+### CPU in more detail
 
 In this introductory course we have greatly simplified how the CPU works.
 
