@@ -1,6 +1,6 @@
 # MS Word Styles
 
-Microsoft Word is a powerful word-processing program.
+Microsoft Word is a word-processing program.
 
 In this course we will assume that you are somewhat familiar with Word and we will focus on a few specific features.
 
@@ -46,34 +46,3 @@ Using the Styles feature of Word automated the formatting task and helps create 
 For an excellent guide with step by step instructions:
 
 > [Microsoft Office Word: Formatting Your Document](https://apps.kennesaw.edu/files/pr_app_uni_cdoc/doc/Word_2016_PC_Formatting_Your_Document.pdf) by Kennesaw State University
-
-You are encouraged to download the zip file containing _SampleDoc.docx_ under Week 10 and follow along.
-
-## Lab: Styles & Tables
-
-In Moodle, download the file *What is a kanban board.docx* from **Lab: Styles & Tables** under Week 2.
-
-**This assignment is worth 0.5% of your lab exercises grade**.
-
-1.  Format the document using built-in styles.
- - Refer to the webpage [What is a kanban board?](https://www.atlassian.com/agile/kanban/boards) to understand the hierarchy of the sections.
-
-2. Change the following built-in styles:
- - Increase the font size of heading levels 1, 2, and 3 by 4 pts
- - Make heading levels 1, 2 and 3 bold.
-        
-3.  Enable the Navigation Pane in your document.
-    
-4.  Insert an automatic page of contents at the beginning of the document.
-
-
-5.  Create a new heading level 1 at the end of your document and name it "Appendix".
-
-
-6.  Insert the table below inside "Appendix":  
-
-![lab schedule png](assets/Tables-lab_schedule-cropped.png)
-
-7. Update the table of contents.
-
-8. Upload your final .docx document to Moodle under **Lab: Styles & Tables**
