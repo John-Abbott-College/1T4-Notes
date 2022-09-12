@@ -18,7 +18,7 @@ This webpage was adapted with permission from [Mauricio Buschinell's](https://gi
 
 ## Source Code
 
-This page is open source, visit the [source code on GitHub](https://github.com/maujac/1T6-F22).
+This page is open source, visit the [source code on GitHub](https://github.com/michaelhaaf/1T6-F22).
 
 ### Download and run locally
 
