@@ -187,23 +187,3 @@ As an excellent written resource with step by step instructions, see:
 > [Microsoft Office Word: Formatting Your Document](https://apps.kennesaw.edu/files/pr_app_uni_cdoc/doc/Word_2016_PC_Formatting_Your_Document.pdf) by Kennesaw State University
 
 <br>
-
-## Lab: Tabs, pages, images & review
-
-**This assignment is worth 0.5% of your lab exercises grade**.
-
-In Moodle, download the compressed folder `Formatting-document.zip`  from **Lab: Tabs, pages, images & review** under Week 3 and extract its content.  
-
-1. Open Word file *Internship-Programs.docx* and re-format the document so it looks like images *Internship-Programs_pg1.png* and *Internship-Programs_pg2.png*
-   * Hint: Use tab stops
-2. Include the image *w01C_Building.jpg* with the appropriate text wrapping.
-3. Use Word's spelling and grammar rules to correct any language mistakes.
-4. Insert "Fall 2021" as the page footer.
-5. Insert page numbers in the top right of the pages.
-6. Insert the chart from *video-salaries.xlsx* anywhere inside your Word document but make sure the data is linked.
-7. In Excel, change the Videographer salary value to 90 and update the chart in the Word document.
-8. Compress the `.docx` file and `video-salaries.xlsx` into a single zip.
-9. Upload your final `.zip` file to Moodle under the same lab.
-
-
-
