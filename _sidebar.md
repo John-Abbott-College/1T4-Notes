@@ -12,4 +12,4 @@
 
 **Week 1-2**
 - [Intro to Operating Systems](wk2/operating_systems.md)
-- [Information Cycle](wk1/infozrmation_cycle.md)
+- [Information Cycle](wk1/information_cycle.md)
