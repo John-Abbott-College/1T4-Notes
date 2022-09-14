@@ -1,6 +1,11 @@
 **Home**
 - [About](/)
 
+**Week 5**
+- [Intro to Command Line](wk7/intro-command-line)
+- [Scripting w/ PowerShell](wk7/pwsh_scripting)
+- [Scripting w/ Bash](wk7/bash_scripting)
+
 **Week 4**
 - [Footnotes & Bibliography](wk4/footnotes-bibliography.md)
 - [One Drive](wk3/one-drive.md)
