@@ -37,38 +37,33 @@ For example, you may choose to show:
 ![gif animation of selecting the different level of markup shown](assets/show-markup.gif)
 
 
-## Lab: Collaborative Editing
-
-**This lab is worth 0.5% of your lab exercises grade**.
-
-> This lab builds on top of the previous week 3 lab: **Lab: Tabs, pages, images & review**
+## Lab 2: Collaborative Editing
 
 **Part A: Upload & share**
 
-1. Download from Moodle the work you had previously submitted for the week 3 lab:  **Lab: Tabs, pages, images & review**
-2. Use OneDrive to upload your *Internship-Programs.docx* document to the cloud in a location of your cloice.
-3. Share your document for reviewing with a colleague as specified by the teacher.
+0. This collaboration lab will be worth 0.5% of your Assignment grade.
+1. Use OneDrive to upload your Assignment-1 document to the cloud in a location of your cloice.
+2. Share your document for reviewing with a colleague as specified by the teacher.
 
 **Part B: Provide edits & comments**
 
 Once a colleague has shared their work with you, apply the next steps **to your colleague's document.** You now have the role of an editor.
 
-4. If necessary, change the change tracking mode to show all markup.
-5. Start tracking your changes to the document.
-6. Provide at least 2 comments on how to improve the document.
+3. If necessary, change the change tracking mode to show all markup.
+4. Review the Rubric for Assignment 1. See if there are any steps that your colleague has missed or done incorrectly.
+5. Provide at least 2 comments on how to improve the document.
 	1. This can include different language or layout changes
 	2. Do do edit the document, just add comments.
 
-7. Make at least two modifications to the text (make sure changes are being tracked).
-8. Make at least two formatting modifications.
-9. Let your colleague know once you are done with the changes.
+6. Make at least two modifications to the text (make sure changes are being tracked).
+7. Make at least two formatting modifications.
+8. Let your colleague know once you are done with the changes.
 
 
-**Part C: Responging to comments and changes:**
+**Part C: Responding to comments and changes:**
 
 Once your editor is done providing comments and suggestions, apply the next steps **to your own document**:
 
-10. Respond to all the comments in the document.
-11. Reject or accept most edit modifications **except for two**.
-12. Upload your document to Moodle under week 3: **Lab: Collaborative Editing**
-13. Call the techer to have your lab graded before you leave.
+9. Respond to all the comments in the document.
+10. Reject or accept most edit modifications **except for two**.
+11. Call the teacher to have your lab graded before you leave.
