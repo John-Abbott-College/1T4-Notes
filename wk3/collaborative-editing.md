@@ -41,7 +41,7 @@ For example, you may choose to show:
 
 **Part A: Upload & share**
 
-0. This collaboration lab will be worth 0.5% of your Assignment grade.
+0. This collaboration lab will be worth 0.5% of your Assignment grade (to be finished in class).
 1. Use OneDrive to upload your Assignment-1 document to the cloud in a location of your cloice.
 2. Share your document for reviewing with a colleague as specified by the teacher.
 
