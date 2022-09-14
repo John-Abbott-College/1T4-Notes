@@ -305,9 +305,7 @@ In windows you have the ability to double click onto a zipped file and File Expl
 
 ## Lab: File Compression
 
-In Moodle, you will find  **Lab: File Compression** under Week 2. **This assignment is worth 0.5% of your lab exercises grade**.
-
-Follow these steps:
+In LEA, you will find  **Lab: File Compression** under the list of assignments. The instructions below are similar to the instructions given on LEA. If there are any contradictions between the instructions, defer to those which came from LEA. 
 
 
 1. Download the file: ***File Compression***
@@ -342,4 +340,4 @@ Follow these steps:
 
 14. Compress the top level directory *Practice 1.*
 
-15. Upload the final compressed folder to Moodle under **Wk2 - Compression Practice**.
+15. Upload the final compressed folder to LEA under Lab 1 -- File Compression.
