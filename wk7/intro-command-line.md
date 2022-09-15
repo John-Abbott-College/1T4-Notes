@@ -99,8 +99,7 @@ However, we already know that the *Locak Disk (C:)* is a root directory in the f
 
 ## Intro to PowerShell
 
-> If you would like to follow along, download the "File Compression" zip file again from LEA.
-
+> If you would like to follow along, download the "File Compression" zip file again from LEA -- the set of files is not quite the same as the images shown below, but should behave similarly enough (and will be what we use during class time). 
 
 
 ### Launching PowerShell
@@ -261,7 +260,9 @@ To move to anywhere else in the file system that is not immediately above or bel
 
 <br>
 
+#### File compression (zip/unzip using Compress/Expand-Archive)
 
+The cmdlets `Expand-Archive` and `Compress-Archive` can be used to manage .zip files, as seen in class. Complete instructions for using these commands can be found [here](https://www.howtogeek.com/670314/how-to-zip-and-unzip-files-using-powereshell).
 
 #### Move-Item (mv)
 
