@@ -65,3 +65,14 @@ Within the terminal of your Windows PowerShell ISE program, run the `dir` or `Ge
 ```
 
 Why does the above command not work? What can you do to fix it? Fix the mistake to successfully unzip the folder and then move on to the next step.
+
+3. In order to perform the various operations needed to complete this task, we will need to use a few of the commands that we have learned. Reread [the course notes](wk7/intro-command-line) about the following commands.
+```
+> Get-ChildItem
+> New-Item
+> Compress-Archive
+> Move-Item
+> Remove-Item
+```
+For each, in the .docx file, write down what the command is used for, what the expected result of running the command is, and what parameters/arguments are required in order to make the command work. Write down a sample command for each that works (test in your powershell terminal).
+
