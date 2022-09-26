@@ -76,3 +76,4 @@ Why does the above command not work? What can you do to fix it? Fix the mistake 
 ```
 For each, in the .docx file, write down what the command is used for, what the expected result of running the command is, and what parameters/arguments are required in order to make the command work. Write down a sample command for each that works (test in your powershell terminal).
 
+4. Go to LEA and download the `compression_script_skeleton.ps1`. Here I have given the structure of the rest of the commands needed. Step by step, try to finish the script.
