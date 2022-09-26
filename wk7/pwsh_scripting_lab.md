@@ -33,8 +33,24 @@ To begin this lab, please visit the [Scripting w/ PowerShell](https://michaelhaa
 ## Practise
 Now, we will use the commands we have learned over the past week to manually complete the File Compression task. Below are exercises to complete; please raise your hand when finished all of the exercises so I can assess. Review the course slides [Intro to the Command Line Shell](https://michaelhaaf.github.io/1T6-F22/#/wk7/intro-command-line) for instructions about how to use these commands if you are stuck.
 
-1. In the script file you have created in the previous step, add the following lines:
+1. Open "Windows Powershell ISE" to complete the following tasks. Open the script file you have created in the previous step, and add the following lines:
+
+```
 $input_file_path = ".\File_compression.zip"
 $unzipped_folder = ".\script_compression"
-$text_file = ".\compression_size.txt"
-$output_folder = ".\Practice3"
+$output_file = ".\compression_size.txt"
+$output_folder = ".\Practice1"
+```
+Run the script by pressing F5 (or the Play button at the top)
+
+In the terminal within Powershell, run the following commands:
+
+```
+> echo $input_file_path
+> echo $unzipped_folder
+> echo $output_file
+> echo $output_folder
+```
+
+Now open a new terminal (not in Powershell ISE) and run the commands again. What is the difference in the output, and why? Write your answers in a .docx file
+
