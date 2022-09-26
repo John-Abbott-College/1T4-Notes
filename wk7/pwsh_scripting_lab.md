@@ -54,3 +54,14 @@ In the terminal within Powershell, run the following commands:
 
 Now open a new terminal (not in Powershell ISE) and run the commands again. What is the difference in the output, and why? Write your answers in a .docx file
 
+2. In order to complete the lab, we will need all of the File Compression lab files that we had from the previous lab, and we will need them in the right place. Download the "File_compression.zip" file from Lab 1 from LEA again, and place it in the same directory as your script. You can use Windows Explorer or powershell to do this task. 
+
+Within the terminal of your Windows PowerShell ISE program, run the `dir` or `Get-ChildItem` command. Confirm that File_Compression.zip is present in your current directory. Then, run the following commands in your terminal (not in your script)
+
+```
+> cd ..\
+> pwd
+> Expand-Archive -Path $input_file_path -DestinationPath $unzipped_folder
+```
+
+Why does the above command not work? What can you do to fix it? Fix the mistake to successfully unzip the folder and then move on to the next step.
