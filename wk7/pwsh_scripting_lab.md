@@ -1,15 +1,21 @@
 # Lab 2: Scripting with PowerShell
 ## 420-1T6 Productivity Tools, Fall 2022
 **Date**: September 26, 2022
+
 **Worth**: 2% of your total grade (from the Assignment 2 evaluation component)
+
 **Submission**: In-class
-**Due**: TBD (end of class most likely)
+
+**Due**: Thursday, September 29, 2022
+
 
 # Objective
 - to get hands-on experience creating, running, and debugging powershell scripts
-- to become familiar basic powershell commands and error messages
+- to become familiar basic powershell commands and error messages needed to create a useful script (Assignment 2)
 
 # Instructions
+- The submission for this lab will be a **.docx** file containing your answers to some questions given below. These questions have been marked in **bold** for convenience.
+- The scripts/code written in this lab will not need to be submitted -- they will be useful for Assignment 2.
 - Feel free to collaborate with your partners/classmates for this lab, however, your submissions will be assessed independently
 - Scripting is difficult to get used to! You will encounter error messages and unexpected behavior. This lab will help you get some experience recognizing error messages and taking steps to solve them independently.
 - In that spirit, if you are stuck, do the following before raising your hand to ask me a question:
@@ -31,7 +37,7 @@ Like we saw last week, the power of a command line shell over a GUI shell comes 
 To begin this lab, please visit the [Scripting w/ PowerShell](https://michaelhaaf.github.io/1T6-F22/#/wk7/pwsh_scripting) course notes from last week, and follow all instructions before the "Excercises" header. Raise your hand when you have finished running all of the commands and are prepared to show me that you have. **Do not skip this step, I want to make sure everyone's computer has permissions and everyone can run a few basic commands independently.**
 
 ## Practise
-Now, we will use the commands we have learned over the past week to manually complete the File Compression task. Below are exercises to complete; please raise your hand when finished all of the exercises so I can assess. Review the course slides [Intro to the Command Line Shell](https://michaelhaaf.github.io/1T6-F22/#/wk7/intro-command-line) for instructions about how to use these commands if you are stuck.
+Now, we will use the commands we have learned over the past week to manually complete the File Compression task. Below are exercises to complete. Review the course slides [Intro to the Command Line Shell](https://michaelhaaf.github.io/1T6-F22/#/wk7/intro-command-line) for instructions about how to use these commands if you are stuck.
 
 1. Open "Windows Powershell ISE" to complete the following tasks. Open the script file you have created in the previous step, and add the following lines:
 
@@ -52,7 +58,7 @@ In the terminal within Powershell, run the following commands:
 > echo $output_folder
 ```
 
-Now open a new terminal (not in Powershell ISE) and run the commands again. What is the difference in the output, and why? Write your answers in a .docx file
+Now open a new terminal (not in Powershell ISE) and run the commands again. **Q1. What is the difference in the output, and why? Write your answers in a .docx file**
 
 2. In order to complete the lab, we will need all of the File Compression lab files that we had from the previous lab, and we will need them in the right place. Download the "File_compression.zip" file from Lab 1 from LEA again, and place it in the same directory as your script. You can use Windows Explorer or powershell to do this task. 
 
@@ -64,7 +70,7 @@ Within the terminal of your Windows PowerShell ISE program, run the `dir` or `Ge
 > Expand-Archive -Path $input_file_path -DestinationPath $unzipped_folder
 ```
 
-Why does the above command not work? What can you do to fix it? Fix the mistake to successfully unzip the folder and then move on to the next step.
+**Q2. Why does the above command not work? What can you do to fix it? Show your fix of the mistake and write your answer in a .docx file**. Once you have successfully unzipped the folder using the above command, move on to the next step.
 
 3. In order to perform the various operations needed to complete this task, we will need to use a few of the commands that we have learned. Reread [the course notes](wk7/intro-command-line) about the following commands.
 ```
@@ -74,6 +80,6 @@ Why does the above command not work? What can you do to fix it? Fix the mistake 
 > Move-Item
 > Remove-Item
 ```
-For each, in the .docx file, write down what the command is used for, what the expected result of running the command is, and what parameters/arguments are required in order to make the command work. Write down a sample command for each that works (test in your powershell terminal).
+**Q3. For each, in the .docx file, write down what the command is used for, what the expected result of running the command is, and what parameters/arguments are required in order to make the command work. Write down a sample command for each that works (test in your powershell terminal).**
 
-4. Go to LEA and download the `compression_script_skeleton.ps1`. Here I have given the structure of the rest of the commands needed. Step by step, try to finish the script.
+4. Submit your completed **.docx** file to LEA under the **Lab 2** submission folder. You are now ready to start Assignment 2 (finishing the script). The full instructions for A2 can be found on LEA as well.
