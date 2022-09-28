@@ -46,6 +46,11 @@ PS C:\Folder-Where-Your-Scripts-Are-Stored> .\script_1.ps1
 
 Complete the script named `script_2.ps1` so that it can execute the tasks below:
 
+1. Find all of the filenames in the **Assignment-2** directory that need to be compressed
+2. Using a for loop (this has been provided to you), execute the Compress-Archive command on each file, saving the .zip version of the file in the **Assignment-2** directory.
+
+Your script will be complete when you can run the following command from powershell, and can observe that all of the files in the **Assignment-2** directory have been compressed.
+
 ```powershell
 PS C:\Folder-Where-Your-Scripts-Are-Stored> .\script_2.ps1
 ```
@@ -54,11 +59,14 @@ PS C:\Folder-Where-Your-Scripts-Are-Stored> .\script_2.ps1
 
 Complete the script named `script_3.ps1` so that it can execute the tasks below:
 
+1. Find all of the filenames in the **Assignment-2** directory that are NOT compressed
+2. Using a for loop (this has been provided to you), determine the filename and length (file size) of each non-compressed file. Append the results to the compression.txt output file created in Part 1, using the same structure as the heading (Filename,Size(Bytes)).
+3. Find all of the filenames in the **Assignment-2** directory that ARE compressed (.zip in the name)
+4. Using a for loop (this has been provided to you), determine the filename and length (file size) of each compressed file. Append the results to the compression.txt output file created in Part 1, using the same structure as the heading (Filename,Size(Bytes)).
+5.
+(BONUS). Using the results from the previous steps, attempt to compute the compression ratio and add it to the output file using the structure (Filename,CompressionRatio)
 
-1.
-2.
-3.
-(BONUS). Using the results from the previous steps, attempt to compute the compression ratio and add it to the output file.
+Your script will be complete when you can run the following command from powershell, and can observe that the **compression.txt** file contains the file size information needed. 
 
 ```powershell
 PS C:\Folder-Where-Your-Scripts-Are-Stored> .\script_3.ps1
