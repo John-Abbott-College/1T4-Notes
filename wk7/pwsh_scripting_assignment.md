@@ -27,7 +27,7 @@ Each script can be completed independently from the other scripts; however, the 
 
 Complete the script named `script_1.ps1` so that it can execute the tasks below:
 
-1. Create a folder named **Assignment-2** inside the user’s **Documents** folder. (Hint: the path "~\Documents" will always lead to the users Documents directory, "~\Desktop" to the users Desktop directory, etc. The tilde character `~` is a useful shortcut for this behavior)
+1. Create a folder named **Assignment-2** inside the user’s **Documents** folder. (Hint: the path "\~\Documents" will always lead to the users Documents directory, "\~\Desktop" to the users Desktop directory, etc. The tilde character `~` is a useful shortcut for this behavior)
 2. Download the zip file from the URL below and save it inside Assignment 2 under the name compressed_files.zip.
 https://github.com/michaelhaaf/1T6-F22/raw/main/wk6/compressed_files.zip
 3. Extract compressed_files.zip inside the Assignment-2 folder.
