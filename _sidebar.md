@@ -20,5 +20,6 @@
 - [Tabs, Foot-Head, Pg no, Images & Spelling](wk3/tab-foot-head-pg-images-review.md)
 
 **Week 1-2**
+- [Lab 1 Instructions](wk2/lab1-compression.md)
 - [Intro to Operating Systems](wk2/operating_systems.md)
 - [Information Cycle](wk1/information_cycle.md)
