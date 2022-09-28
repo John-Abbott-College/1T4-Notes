@@ -2,7 +2,7 @@
 - [About](/)
 
 **Week 6**
-- [Intro to Command Line](wk7/pwsh_scripting_lab)
+- [Powershell Lab + Assignment](wk7/pwsh_scripting_lab)
 
 **Week 5**
 - [Intro to Command Line](wk7/intro-command-line)
