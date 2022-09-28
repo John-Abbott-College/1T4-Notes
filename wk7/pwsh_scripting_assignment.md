@@ -1,7 +1,7 @@
 # Assignment 2: Scripting with PowerShell
 ## 420-1T6 Productivity Tools, Fall 2022
 
-**Date**: September 28, 2022
+**Version & Date**: Version 1, September 28, 2022
 
 **Worth**: 6% of your total grade (from the Assignment 2 evaluation component)
 
