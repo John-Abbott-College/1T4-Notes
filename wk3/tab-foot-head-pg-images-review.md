@@ -138,7 +138,7 @@ By default, Editor checks for several categories of issues. To modify tune Edito
 
 > 📖 For this section of the notes please refer to the following resource:
 > 
-> [Word: Formatting Pictures](https://www.youtube.com/watch?v=eC4bRXx9k6g&t=12s).
+> [Word: Formatting Pictures](https://edu.gcfglobal.org/en/word/formatting-pictures/1/).
 
 ### Picture Styles group
 
@@ -146,7 +146,7 @@ Contains different **predefined styles** that make image formatting even easier.
 
 <br>
 
-## Inserting and Excel Chart
+## Inserting an Excel Chart
 
 1. Open Excel and copy your chart to the clipboard (regular <kbd>Ctrl</kbd> + <kbd>C</kbd>)
 2. Open Word and past your chart (regular <kbd>Ctrl</kbd> + <kbd>V</kbd>)
