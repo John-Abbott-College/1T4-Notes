@@ -1,7 +1,7 @@
 # Assignment 2: Scripting with PowerShell
 ## 420-1T6 Productivity Tools, Fall 2022
 
-**Version & Date**: <span style="color:red">some **This is Red Bold.** textVersion 2, October 17, 2022 (changes in red) </span> 
+**Version & Date**: <span style="color:red">Version 2, October 17, 2022 (changes in red) </span> 
 
 **Worth**: 6% of your total grade (from the Assignment 2 evaluation component)
 
@@ -31,8 +31,8 @@ Complete the script named `script_1.ps1` so that it can execute the tasks below:
 2. Download the zip file from the URL below and save it inside Assignment 2 under the name compressed_files.zip.
 https://github.com/michaelhaaf/1T6-F22/raw/main/wk6/compressed_files.zip
 3. Extract compressed_files.zip inside the Assignment-2 folder.
-4. <span style="color:red"> Remove the compressed_files.zip file -- it is no longer needed once it has been extracted.<\span> 
-5. <span style="color:red"> In the same directory as Assignment-2 (the user Document folder), create a new txt file named compression.txt <\span>
+4. <span style="color:red"> Remove the compressed_files.zip file -- it is no longer needed once it has been extracted.</span> 
+5. <span style="color:red"> In the same directory as Assignment-2 (the user Document folder), create a new txt file named compression.txt </span>
 6. Append the text below as the first line inside compression.txt. This line will act as the header for the data you extract in subsequent scripts.
 
 > Filename,Size(Bytes)
@@ -60,10 +60,10 @@ PS C:\Folder-Where-Your-Scripts-Are-Stored> .\script_2.ps1
 
 Complete the script named `script_3.ps1` so that it can execute the tasks below:
 
-1. Find all of the filenames in the **Assignment-2** directory that ARE compressed (.zip in the name: <span style="color:red"> Get-ChildItem and Wildcards will be useful: see the course notes about Wildcards in Week 5) <\span>.
+1. Find all of the filenames in the **Assignment-2** directory that ARE compressed (.zip in the name: <span style="color:red"> Get-ChildItem and Wildcards will be useful: see the course notes about Wildcards in Week 5) </span>.
 2. Using a for loop (this has been provided to you), determine the filename and length (file size) of each compressed file. Append the results to the compression.txt output file created in Part 1, using the same structure as the heading (Filename,Size(Bytes)).
 3. Find all of the filenames in the **Assignment-2** directory that are NOT compressed
-4. Using a for loop (similar to previous step), determine the filename and length (file size) of each NON-compressed file (that is, everything that DOES NOT have .zip in the name). <span style="color:red"> You will find the `-Exclude` parameter of the `Get-ChildItem` command useful in combination with Wildcards from the previous step. <\span>
+4. Using a for loop (similar to previous step), determine the filename and length (file size) of each NON-compressed file (that is, everything that DOES NOT have .zip in the name). <span style="color:red"> You will find the `-Exclude` parameter of the `Get-ChildItem` command useful in combination with Wildcards from the previous step. </span>
   
 Append the results to the compression.txt output file created in Part 1, using the same structure as the heading (Filename,Size(Bytes)).
 
