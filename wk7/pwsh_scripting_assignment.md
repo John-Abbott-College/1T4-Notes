@@ -1,15 +1,15 @@
 # Assignment 2: Scripting with PowerShell
 ## 420-1T6 Productivity Tools, Fall 2022
 
-**Version & Date**: Version 1, September 28, 2022
+**Version & Date**: :warning: Version 2, October 17, 2022 :warning: 
 
 **Worth**: 6% of your total grade (from the Assignment 2 evaluation component)
 
 **Submission**: A single .zip file named *LastName_Assignment2.zip* containing all scripts
 
-**Due**: Wed, Oct 19th, at 23h59
+**Due**: Mon, Oct 24, at 23h59
 
-**Late Policy**: 10% deduction in grades per day late by default. Please contact me by MIO if extenuating circumstances preven you from submitting on time.
+**Late Policy**: 2.5% deduction in grades per day late by default. Please contact me by MIO if extenuating circumstances preven you from submitting on time.
 
 # Context
 In the first lab of this course you compared the compression ratios of different files by manually recording their sizes before and after compression. In subsequent labs we have seen how we can chain together several commands using **scripts**. In this assignment you will create a script to automate the compression ratio calculation problem.
@@ -31,8 +31,9 @@ Complete the script named `script_1.ps1` so that it can execute the tasks below:
 2. Download the zip file from the URL below and save it inside Assignment 2 under the name compressed_files.zip.
 https://github.com/michaelhaaf/1T6-F22/raw/main/wk6/compressed_files.zip
 3. Extract compressed_files.zip inside the Assignment-2 folder.
-4. Inside Assignment-2 create a new txt file named compression.txt
-5. Append the text below as the first line inside compression.txt. This line will act as the header for the data you extract in subsequent scripts.
+4. :warning: Remove the compressed_files.zip file -- it is no longer needed once it has been extracted.:warning: 
+5. :warning: In the same directory as Assignment-2 (the user Document folder), create a new txt file named compression.txt
+6. Append the text below as the first line inside compression.txt. This line will act as the header for the data you extract in subsequent scripts.
 
 > Filename,Size(Bytes)
 
@@ -59,12 +60,15 @@ PS C:\Folder-Where-Your-Scripts-Are-Stored> .\script_2.ps1
 
 Complete the script named `script_3.ps1` so that it can execute the tasks below:
 
-1. Find all of the filenames in the **Assignment-2** directory that are NOT compressed
-2. Using a for loop (this has been provided to you), determine the filename and length (file size) of each non-compressed file. Append the results to the compression.txt output file created in Part 1, using the same structure as the heading (Filename,Size(Bytes)).
-3. Find all of the filenames in the **Assignment-2** directory that ARE compressed (.zip in the name)
-4. Using a for loop (this has been provided to you), determine the filename and length (file size) of each compressed file. Append the results to the compression.txt output file created in Part 1, using the same structure as the heading (Filename,Size(Bytes)).
-5.
-(BONUS). Using the results from the previous steps, attempt to compute the compression ratio and add it to the output file using the structure (Filename,CompressionRatio)
+1. Find all of the filenames in the **Assignment-2** directory that ARE compressed (.zip in the name: Get-ChildItem and Wildcards will be useful: see the course notes about Wildcards in Week 5).
+2. Using a for loop (this has been provided to you), determine the filename and length (file size) of each compressed file. Append the results to the compression.txt output file created in Part 1, using the same structure as the heading (Filename,Size(Bytes)).
+3. Find all of the filenames in the **Assignment-2** directory that are NOT compressed
+4. Using a for loop (similar to previous step), determine the filename and length (file size) of each NON-compressed file (that is, everything that DOES NOT have .zip in the name). You will find the `-Exclude` parameter of the `Get-ChildItem` command useful in combination with Wildcards from the previous step.
+
+Append the results to the compression.txt output file created in Part 1, using the same structure as the heading (Filename,Size(Bytes)).
+
+6.
+(BONUS: you're on your own!). Using the results from the previous steps, attempt to compute the compression ratio and add it to the output file using the structure (Filename,CompressionRatio)
 
 Your script will be complete when you can run the following command from powershell, and can observe that the **compression.txt** file contains the file size information needed. 
 
