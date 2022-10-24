@@ -1,14 +1,25 @@
 # Bash Scripting
 
-A script is a simple text file that contains multiple shell commands that can be executed sequentially.
+So far in this course, we have interacted with both GUI (Windows Explorer) and CLI (Windows Powershell) [shells](wk2/operating_systems-the-shell). These are just two of hundreds of GUI and CLI programs which developers and technicians use on a regular basis.
 
->
-> In **Bash**, a script has the following characteristics:
-> - The **file extension .sh**
-> - The first line of your file must include `#!/usr/bin/env bash` (aka. shebang)
+For non-Windows operating systems (OS X, Linux, Android, etc.), the most common CLI shell is [bash](https://www.gnu.org/software/bash/).
 
+Bash has a similar set of features and utilities to what we have seen so far in Powershell:
+- command-line functions and aliases
+- file system navigation/manipulation
+- environment variables
+- control structures (conditionals, loops, functions)
+- a scripting language (many commands read in sequence)
 
-The shebang is used to tell the operating system which type of shell must be used to interpret the commands.
+There are also very key differences between Powershell and Bash:
+
+| Category    | Bash    | PowerShell |
+|---------------- | --------------- | --------------- |
+| Operating System    | Unix based: OSX, Unix, BSD. Usable on Windows with special tools | Windows. Usable on Unix based systems with special tools    |
+| Input/Output    | Plain text    | .NET Objects    |
+
+The I/O (Input/Output) category is quite important. 
+
 
 ## Creating bash scripts
 
@@ -28,11 +39,19 @@ To create a script in VS Code:
 
 ![](assets/create-new-file-vscode.png)
 
-After you've created your script file, add the shebang in the first line:
+After you've created your script file, add a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) to the first line of the file:
 
 ```
 #!/usr/bin/env bash
 ```
+
+> In **Bash**, a script has the following characteristics:
+> - The **file extension .sh**
+> - The first line of your file must include `#!/usr/bin/env bash` (aka. shebang)
+
+The shebang is used to tell the operating system which type of shell must be used to interpret the commands.
+
+
 
 To learn more about the shebang `!#`, check [this link](https://scriptingosx.com/2017/10/on-the-shebang/).
 

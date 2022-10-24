@@ -2,13 +2,13 @@
 - [About](/)
 
 **Week 6**
+- [Scripting w/ Bash](wk6/bash_scripting)
 - [Assignment 2 Instructions](wk7/pwsh_scripting_assignment)
 - [Lab 2 Instructions](wk7/pwsh_scripting_lab)
 
 **Week 5**
 - [Intro to Command Line](wk7/intro-command-line)
 - [Scripting w/ PowerShell](wk7/pwsh_scripting)
-- [Scripting w/ Bash](wk7/bash_scripting)
 
 **Week 4**
 - [Footnotes & Bibliography](wk4/footnotes-bibliography.md)
