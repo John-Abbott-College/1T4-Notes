@@ -1,6 +1,23 @@
 **Home**
 - [About](/)
 
+**Week 10**
+- [Cloud Computing](wk10/cloud_computing)
+- [Intro to Encryption](wk10/intro_encryption)
+- [Passwords](wk10/passwords)
+
+**Week 9**
+- [Internet Protocols](wk9/internet_protocols)
+- [Networking](wk9/networking_pt1)
+- [Reaching the Internet](wk9/reaching_internet)
+
+**Week 7-8**
+- [Intro to Excel](wk4/intro-excel)
+- [Presentation Tools](wk4/presentation-software)
+- [Excel Functions](wk5/excel_functions)
+- [Excel Charts](wk5/excel_chart)
+- [Sorting Filtering & Formatting](wk7/sorting-filtering-formatting)
+
 **Week 6**
 - [Scripting w/ Bash](wk6/bash_scripting)
 - [Assignment 2 Instructions](wk7/pwsh_scripting_assignment)
