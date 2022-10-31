@@ -16,7 +16,7 @@
 - [Presentation Tools](wk4/presentation-software)
 - [Excel Functions](wk5/excel_functions)
 - [Excel Charts](wk5/excel_chart)
-- [Sorting Filtering & Formatting](wk7/sorting-filtering-formatting)
+- [Sorting Filtering & Formatting](wk6/sorting-filtering-formatting)
 
 **Week 6**
 - [Scripting w/ Bash](wk6/bash_scripting)

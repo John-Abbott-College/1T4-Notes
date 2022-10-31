@@ -16,7 +16,7 @@ Initially it only connected a few institutions between the east and west coast o
 
 <br>
 
-![img](https://lh4.googleusercontent.com/KSpplQIaBYXGtlh_liRcV01vQJFipuRLB0FNJrwGdSp3JHipuBCO0Qu6asA2DumqDW1NTSW3KS0XtmF-cQ8SST6UAPSyXt1XvokEEo12PKrR5V80gB_dwcUsKVESsD37L3kIiN8kkUs)
+![img](https://libreddit.spike.codes/preview/pre/oad7t2foqyk11.gif?format=mp4&s=f9cffeb71223ff49900e93d480395b383ceb78af)
 
 <p align="center"><a href="https://paleofuture.gizmodo.com/the-rise-and-fall-of-the-arpanet-1969-1989-in-one-gif-1258090851"><em>Connection evolution of ARPANET</em></a></p>
 
@@ -109,13 +109,7 @@ For example, when you ask for a page to be loaded in your web browser, your brow
 
 The server responds to your request by returning a collection of files that together form website. (images, text, formatting, etc.).
 
-> Checkout the [network tab of your browser's dev tools](https://www.youtube.com/watch?v=nl8iKlo2NeM) to see all the files that are required to show this page.
-
-<br>
-
-![img](https://lh4.googleusercontent.com/V_Ycz9Y9rgxy2INzc18KVTZGhLYiHV6_PtCCVjcQtpwyjWwr-VyijhHsORtvX6krHXx1N-nzbMqPcx58x5PJYo7RR0V6i-ec2eAcLizpHZElRtBG3aaBmZGSO_JcdIw_eUncSHWpw8c)
-
-<br>
+> Check out the [network tab of your browser's dev tools](https://www.youtube.com/watch?v=nl8iKlo2NeM) to see all the files that are required to show this page.
 
 ## URLs
 
@@ -274,13 +268,7 @@ It is connection-oriented and it requires that a connection is established betwe
 
 - **Flow control:** ensures that a sender is not overwhelming a receiver by sending packets faster than it can consume.
 
-<br>
-
 TCP ensures reliability by performing several checks when the data is transmitted and received.
-
-![img](https://lh4.googleusercontent.com/1WaISVwuB4WKYAV7c3_4QI7D3knau8tXlU2dsFcZlEUXeG7-lWLNPDjFkWZBq3kUkTU5NHyh72Z0VtL-EAE-Z9R46xfXm1BKFubZmgOj6I7TQZD48khruCftx9Hn0xeRUj6PtRthpo4)
-
-<br>
 
 ### UDP
 
