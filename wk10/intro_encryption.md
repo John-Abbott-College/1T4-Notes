@@ -108,6 +108,10 @@ Carlos in the other hand has the private key to unencrypt the message.
 
 We can apply the same encryption principles to any kind of data being exchanged or stored via the internet.
 
+Want to see how this is done in real life? Check out this tutorial: https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages
+
+
+
 <br>
 
 *The following section is based on the article [How Does HTTPS Work?](https://tiptopsecurity.com/how-does-https-work-rsa-encryption-explained/) by TipTopSecurity.com*
