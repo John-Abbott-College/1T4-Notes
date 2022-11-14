@@ -25,35 +25,22 @@ Most data is stolen because of two reasons:
 
 Thanks to cloud computing services, it is very easy for someone to setup a publicly accessible computer. However, properly securing and maintaining the server takes time and/or experience.
 
-A common source of data leaks come from misconfigured online storage such as Amazon S3 storage.
+Here's at overview of many of the most significant data breaches in recent history (click on the image to see full article):
 
 <br>
 
-A few articles with examples of leaked data from Amazon S3 storage: (click on images for access)
-
-<br>
-
-[![img](https://lh6.googleusercontent.com/gsIpqxith-KHK-idZ0Do10lFj0ShYRnnOBpsNXj2wf6tiekf7f5xkEvCarh3askTYx5RCT8DwquQnAWHhzePfzfIBl1MroxH3_3MVBuflQlxUJbjoDl_rfd63O5E3uOqxEPY8bO9Sns)](https://businessinsights.bitdefender.com/worst-amazon-breaches)
-
-<br>
-
-[![img](https://lh4.googleusercontent.com/-1QL2IEC74nr4tVzfsb5oBz0OwmhYusDOWxp0E0fQOGksrr3GaoEZTKTr492c1fBqZT3XqNFB-ZEap5l3vxPrVSJWy2szFf2dGu7kAOCjPYAnhOa11w-vLfKcJEbLhOSt6x4x6DNJVQ)](https://threatpost.com/leaky-amazon-s3-buckets-expose-data-of-netflix-td-bank/146084/)
-
-<br>
-
-[![img](https://lh3.googleusercontent.com/vU-82qfRafQZSsAPwFjfJpt7WaKwJIvWosUbla37Y62bc5xSgSqL4ea0GSYkcLtbrQIyzYrFIJgQXlf240a4w4keY42DYQRihgtSC_aXAKX3bLb7_sZED75QjLCnaZVTrEiJpfVoD4Q)](https://www.bleepingcomputer.com/news/security/540-million-facebook-records-leaked-by-public-amazon-s3-buckets/)
+[![img](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffinancesonline.com%2Fuploads%2F2021%2F01%2Fbiggest-data-breaches.jpg&f=1&nofb=1&ipt=ef0e5fe0346a74e651ae83119f9771c43e1f77e6a378331be7d5ddf2817df458&ipo=images)](https://www.upguard.com/blog/biggest-data-breaches)
 
 <br>
 
 ### Exploitable Vulnerabilities
-
-Software bugs are commonly being found. This include poor coding skills, bad design decisions and lack of testing. Sometimes it's impossible to foresee the ways in which the software could be exploited.
+There are many possible vulnerabilities to exploit in software systems. Software bugs are common: poor design decisions, rushed code releases, and  programmer error are just some sources of mistakes and ultimately security vulnerabilities. Even without explicit mistakes, software services can be complicated with chaotic interaction that is hard to predict. 
 
 <br>
 
 There are many **automated** [vulnerability scanners](https://en.wikipedia.org/wiki/Vulnerability_scanner) that can scan a computer or a network to find known exploitable bugs in commonly used software.
 
-> It's very important to keep your software and operating system up to date!
+> It's very important to keep your software and operating system up to date: most software that we use is continuously maintained by its developers, in part to fix sercurity issues that become known over time.
 
 <br>
 
