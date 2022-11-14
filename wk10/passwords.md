@@ -128,7 +128,7 @@ Here is a list of recommendations for creating strong passwords:
 
 ![Password Strength](https://imgs.xkcd.com/comics/password_strength.png)
 
-<p align="center"><a href="https://xkcd.com/936/"><em>Human friendly passwords by explainxkcd.com</em></a></p>
+<p align="center"><a href="https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength"><em>Human friendly passwords by explainxkcd.com</em></a></p>
 
 <br>
 
