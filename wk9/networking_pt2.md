@@ -28,9 +28,7 @@ Example topologies:
 
 ## Bus topology
 
-<figure>
 <img align="right" src="assets/Bus_Topology.png" width="200" height="200" />
-</figure>
 
 * All devices are connected by a single cable known as the **back-bone** cable.
 * Advantages: requires less cables, easy to add new node to network
@@ -38,10 +36,7 @@ Example topologies:
 
 ## Ring topology
 
-<figure>
 <img align="right" src="assets/NetworkTopology-Ring.png" width="200" height="200" />
-</figure>
-
 
 * Data travels around the ring, stopping at each node. If a node wants to transmit data, it adds the data as well as the destination address to the data.
 * Data continues around the ring until it finds the destination node, which takes the data out of the frame.
@@ -51,10 +46,7 @@ Example topologies:
 
 ## Star/Tree topology
 
-<figure>
 <img align="right" src="assets/Star_Topology_abstract.png" width="200" height="200" />
-</figure>
-
 
 * Star topology: Every node is connected directly to a central networking hub/switch.
 * Tree topology: multiple Star topology networks connected into a larger Tree of networks.
@@ -63,17 +55,12 @@ Example topologies:
 
 ## Mesh topology
 
-<figure>
-  <figcaption align="right">'Partially' connected mesh: not all nodes connected to all others</figcaption>
 <img align="right" src="assets/NetworkTopology-Mesh-partial.png" width="200" height="200" />
-</figure>
 
-<figure>
-  <figcaption align="right">'Fully' connected mesh: all nodes connected to all others</figcaption>
-  <img align="right" src="assets/NetworkTopology-Mesh-full.png" width="200" height="200" />
-</figure>
+<img align="right" src="assets/NetworkTopology-Mesh-full.png" width="200" height="200" />
 
-
+* **Left**: a Fully Connected Mesh Network (all nodes connected to all other nodes)
+* **Right**: a Partially Connected Mesh Network (some nodes with multiple connections to other nodes, no central node)
 * Most nodes are connected to many other nodes for redundancy and fault tolerance.
 * Used in WANs to interconnect LANs; used for high availability/critical networks
 * Advantages: fault tolerance, high bandwidth, devices independent, no single point of failure
