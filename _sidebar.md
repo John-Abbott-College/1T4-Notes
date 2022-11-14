@@ -1,6 +1,17 @@
 **Home**
 - [About](/)
 
+
+**Week 12**
+- [Diagramming Tools](wk12/diagramming_software)
+- [Flowcharts](wk12/flowcharts)
+- [Architecture Diagrams](wk12/deployment_diagrams)
+
+**Week 11**
+- [Digital Images](wk11/images_resolution)
+- [Images Compression](wk11/images_compression)
+- [PGP/GPG Key Creation Review](wk11/gpg_pgp)
+
 **Week 10**
 - [Cloud Computing](wk10/cloud_computing)
 - [Intro to Encryption](wk10/intro_encryption)
