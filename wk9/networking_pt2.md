@@ -1,3 +1,5 @@
+<base href="http://michaelhaaf.github.io/1T6-F22/#/wk9" />
+
 This set of slides covers material from Assignment 3 (see LEA) that is not already discussed in earlier slides.
 
 <br>
