@@ -21,6 +21,7 @@
 - [Internet Protocols](wk9/internet_protocols)
 - [Networking](wk9/networking_pt1)
 - [Reaching the Internet](wk9/reaching_internet)
+- [Networking pt2: Assignment 3 content](wk9/networking_pt2)
 
 **Week 7-8**
 - [Intro to Excel](wk4/intro-excel)
