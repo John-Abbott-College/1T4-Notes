@@ -70,22 +70,22 @@ To inspect the size of an image you have two options:
 
 
 1. Download the image and inspect the file properties.
-2. If using Firefox, right-click and select "View"
+2. If using Firefox, right-click and select "Inspect" -- we can view the source HTML of the picture this way, which generally includes the resolution as a property.
 
 <br>
 
 ## Resolution
 
-When dealing with digital images,  **the term resolution can carry two different meanings:**
+When dealing with digital images, **the term resolution can sometimes refer to two different meanings:**
 
-1. The number of pixels of an image or screen.
-2. How many pixels fir in one inch.
+1. The total number of pixels of an image or screen, usually given per dimension (width x height).
+2. The number of pixels per unit length length. This is usually referred to as **pixel density**, with unit PPI (pixels per inch) or ppcm (pixels per cm).
 
 <br>
 
 ### Resolution as pixels size
 
-To talk about resolution as the number of pixels an image contains is effectively the same as describing it's size.
+To talk about resolution as the number of pixels an image contains is effectively the same as describing its size.
 
 > The more pixels an image contains, the more detail it can store in the form of subtle differences in shades from one pixel to another.
 
@@ -119,9 +119,7 @@ Screen resolutions are typically measured as the vertical or horizontal pixels d
 
 ### Resolution as pixel density
 
-Resolution as pixel density is technically more correct than using it as pixel count.
-
-> Pixel density describes how many pixels fit in an inch or PPI (pixels per inch).
+> Pixel density describes how many pixels fit in a unit length (PPI or ppcm: pixels per inch/cm respectively)  
 
 <br>
 
@@ -142,6 +140,14 @@ PPIs are commonly mistaken by DPI (dots per inch), however, DPI's are normally o
 ![Diagram: standard-resolution screen with 4 pixels versus high-resolution screen with 16 pixels](https://www.internetingishard.com/html-and-css/responsive-images/standard-vs-retina-resolution-64f6b6.png ':size=600')
 
 <p align="center"><a href="https://www.internetingishard.com/html-and-css/responsive-images/"><em>Standart vs Retina Resolution by Interneting is Hard</em></a></p>
+
+One quick method for estimating the PPI of a monitor, when all that we know is the resolution (width *w* and height *h*) diagonal length of the monitor *L*, is to use Pythagorean theorem:
+
+```
+$$
+\displaystyle PP=\frac{\sqroot(w^2 + h^2)}{L}
+$$
+```
 
 <br>
 
@@ -193,9 +199,9 @@ So far we've focused on storing image information as a pixel grid. However, ther
 
 <br>
 
-![Picture](https://www.seekacreative.co.nz/uploads/3/0/6/7/30679021/vector-raster_orig.jpg ':size=500')
+![Picture](https://ik.imagekit.io/pjklwpg7s/wp-content/uploads/2019/10/shutterstock_1115231174-Converted.jpg ':size=500')
 
-<p align="center"><a href="https://www.seekacreative.co.nz/resources/vector-vs-raster-files"><em>Vector vs Raster Files</em></a></p>
+<p align="center"><a href="https://www.adobe.com/ca/creativecloud/file-types/image/comparison/raster-vs-vector.html"><em>Vector vs Raster Files</em></a></p>
 
 <br>
 
