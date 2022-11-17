@@ -60,7 +60,9 @@ Note, in order to use your keys on another machine, you will also need to import
 ## Importing a public key from a file
 To import a public key that someone has shared with you into your GPG key ring, run the following command:
 
-
+```
+gpg --import /path/to/pub/key/file.asc
+```
 
 ## Importing a public key from a keyserver
 
@@ -75,6 +77,16 @@ Try the following command with the user-id **michael.haaf@johnabbott.qc.ca**. Th
 gpg --search user-id
 
 gpg --keyserver hkps://keys.openpgp.org --search user-id
+```
+
+Verify that my key was imported. The key should have my name/email address, be of type *ed25519*, created **2022-11-16**, with a fingerprint that starts with **1ED3E9**.
+```
+gpg --list-keys
+```
+
+**Note**: You may already have my out-of-date key from last week, which has my name/email address but otherwise does not match what I described above. If so, please delete my old key using the following command:
+```
+gpg --delete-key <key id: the long string on the line below the creation date>
 ```
 
 # Encrypting a file with a GPG public key
