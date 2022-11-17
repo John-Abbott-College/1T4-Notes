@@ -46,10 +46,14 @@ Run the following commands to export your keys to files, which we can transfer t
 Replace **user-id** with the email address you used to create your key:
 ```
 gpg --armor --export user-id > ~/pubkey.asc
-gpg --export-secret-keys --armor user-id > privkey.asc
+gpg --export-secret-keys --armor user-id > ~/privkey.asc
 ```
 
-This will create the file **pubkey.asc** at the path specifed (in the example, ~/, which is your home directory)
+This will create the file **pubkey.asc** at the path specifed (in the example, ~/, which is your home directory).
+
+**I recommend storing your pubkey.asc, privkey.asc, and revocation.crt files in OneDrive, so you can use them on other machines.** 
+
+Note, in order to use your keys on another machine, you will also need to import both keys to the gpg application on that other machine. Instructions for this follow.
 
 # Importing a GPG key
 
