@@ -369,10 +369,6 @@ Conversion programs exist but can only take you so far.
 
 <br>
 
-![mime, one does not simply exports a photo as svg](https://lh6.googleusercontent.com/U1VQag_or1ePezp7ocu49duxyc5BriuKj_wGRXChs8KHQNo3khD8JAj88tinT2UT9HHGwGFZYWFKP0iMWHM0n_y8KpqaCuZmBnX3Av-b-M7n2o5NMa9h8Whc80U0vX9CqA6l7dtJP9k ':size=600')
-
-<br>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s-kPg4vYKfk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>

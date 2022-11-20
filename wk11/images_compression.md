@@ -14,23 +14,20 @@ Choosing the correct image format along it's compression type is important becau
 
 ## Why optimize images ?
 
-Page load times is directly related to [bounce rates](https://support.google.com/analytics/answer/1009409?hl=en) and  inversely proportional to sales conversion.
+Page load times are directly related to [bounce rates](https://support.google.com/analytics/answer/1009409?hl=en): that is, the longer a page loads, the more likely a user is to navigate away from that page without clicking on anything. Bounce rates are measured regularly across the internet, allowing us to confirm empirically this fairly intuitive idea: a difference of just a few seconds drastically increases the likelyhood a user will click away from a webpage.
 
 <br>
 
-![img](https://lh3.googleusercontent.com/Iouf796d7faP2oEH6aIUXIYIXzJ_DYKpus5qkqZ33pwblQCpd0Ws28lPiqysg7KaHJSOk9iC1fNzdEQok6xFT2vBY-0pLl8C1QYuIFVBxMWm6dO6tyEWJWv5HF7roNmXkHp4rO31taM)
-
-<p align="center">
-	<a href="https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-load-time/"><em>Google/SOASTA Research, 2016</em></a>
+![img](https://www.pingdom.com/wp-content/uploads/2018/01/Group-11-5-1536x1012.png "Title")
+<p align="center" style="font-size:80%">
+<a href="https://www.pingdom.com/blog/page-load-time-really-affect-bounce-rate/">image source</a>
 </p>
 
 
-This means **Fast pages == $**
-
-- [Every 100ms improvement brings Walmart up to 1% incremental revenue](https://www.slideshare.net/devonauerswald/walmart-pagespeedslide/46)
-
 - [Cloudflare reports that going from 5.7s to 2.4s load time triples the conversion rate](https://www.cloudflare.com/learning/performance/more/website-performance-conversion-rates/)
 - [Akamai reports that a two-second delay in web page load time increase bounce rates by 103%](https://www.akamai.com/uk/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
+
+Slow pages are very frustrating to use, this is pretty easy to understand. 
 
 <br>
 
@@ -104,6 +101,9 @@ While there is no definite answer, below is a recommendation based on a few basi
 
 <br>
 
+You can get a sense of the reasoning behind this chart by reviewing the previous set of slides on [image resolution](./images_resolution). The general principle is: use the smallest file format available that meets the minimum display requirements.
+
+
 ## Optimizing Compression
 
 Image compressors use a variety of techniques to lower the number of required bits per pixel in order to reduce file size.
@@ -123,22 +123,19 @@ Differences in image formats are largely due to how compatible they are with los
 
 ### Lossy
 
-In lossy compression some **information is lost** during. An image after compression is of lower definition. 
+In lossy compression some **information is lost** during compression. This is because lossy compression reduces files size by approximating the original image -- this approximation destroys some of the image quality to achieve reduced file size.
 
 **This process is irreversible.** However, when done properly, the loss in quality is barely noticeable. 
 
-<br>
-
 ![3 versions of a jpg image under different compression %: original, 50%, and 80%](https://technofaq.org/wp-content/uploads/2018/02/lossy-compression-600x172.png)
 
-<p align="center"><a href="https://technofaq.org/posts/2018/02/pitfalls-to-avoid-when-choosing-images-for-your-webpage/"><em>Image by technofaq.org</em></a></p>
+<p align="center" style="font-size:80%"><a href="https://technofaq.org/posts/2018/02/pitfalls-to-avoid-when-choosing-images-for-your-webpage/"><em>Image by technofaq.org</em></a>. Right click and open this image in a new tab -- zoom in on each panel to observe the compression artefacts (blurred pixels) introduced in the compressed images.</p>
 
 <br>
 
-> Lossy compression algorithms reduce image size by:
->
-> - Simplifying or reducing the number of pixels;
-> - Reducing the number of colors (color palette).
+Lossy compression algorithms reduce image size by:
+ - Simplifying or reducing the number of pixels;
+ - Reducing the number of colors (color palette).
 
 <br>
 
@@ -170,11 +167,9 @@ From left to right (PNG): 32-bit (4 channels, 16M colors), 7-bit (128 colors), 5
 
 ### Lossless
 
-In lossless compression no **information is lost** during compression. Image before and after compression are **identical**.
+In lossless compression **no information is lost** during compression. Images before and after compression are **identical**.
 
 > Lossless compression shrinks images by replacing and substituting patterns observed in the pixel grid.
-
-
 
 This is done similarly to how `.zip` files are compressed. **This process is perfectly reversible.**
 
