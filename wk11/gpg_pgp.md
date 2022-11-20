@@ -290,8 +290,11 @@ not human readable).
 We can verify that our signature worked using either of the following commands:
 
 ```
-gpg --verify name_of_file.gpg     # Verifies the signature
-gpg --decrypt name_of_file.gpg    # Verifies sig and extracts compressed content
+# Verifies the signature
+gpg --verify name_of_file.gpg 
+
+# Verifies signature, extracts compressed content to chosen path
+gpg --output choose_output_file_path --decrypt name_of_file.gpg   
 ```
 
 Try editing `name_of_file.gpg` by making random changes and saving them. Once
@@ -373,5 +376,9 @@ This is done using the `-u` parameter. For example, to verify a document signed
 by me, using my public key (assuming it is in your key ring):
 
 ```
+# Simply verify a signature
 gpg -u michael.haaf@johnabbott.qc.ca --verify name_of_file
+
+# Verify and "decrypt" a document that has been signed and compressed (like A4)
+gpg -u michael.haaf@johnabbott.qc.ca --output name_of_output_file --decrypt name_of_file
 ```
