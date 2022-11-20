@@ -1,6 +1,7 @@
 # Digital Images
 
-In week 2 we discussed how digital images are a collection of individual colored pixels.
+In week 2 we discussed how digital images are a collection of individual colored
+pixels.
 
 <br>
 
@@ -10,10 +11,10 @@ In week 2 we discussed how digital images are a collection of individual colored
 
 <br>
 
-> We can form any color by combining three fundamental colors: **R**ed, **G**reen, and **B**lue.
+> We can form any color by combining three fundamental colors: **R**ed,
+> **G**reen, and **B**lue.
 >
 > The intensity of each RGB color is provided in a range from 0 to 255.
-
 
 ![RGB scheme: concentric circles overlapping. Each circle represents a color: Red, Green and Blue](assets/res-rbg-scheme.png)
 
@@ -25,23 +26,26 @@ In week 2 we discussed how digital images are a collection of individual colored
 
 <br>
 
-> The pixels that store the image information are **logical pixels**. They exist in a file or in memory.
+> The pixels that store the image information are **logical pixels**. They exist
+> in a file or in memory.
 >
-> When we display the image on the screen, each logical pixel gets mapped to a **physical pixel**, which is literally a tiny light source in the screen.
+> When we display the image on the screen, each logical pixel gets mapped to a
+> **physical pixel**, which is literally a tiny light source in the screen.
 
 <br>
 
-![Close up of iPhone Retina Display showing individual leds](https://prometheus.med.utah.edu/~bwjones/wp-content/uploads/2012/04/iPhone-Retina-Display2.jpg ':size=600')
+![Close up of iPhone Retina Display showing individual leds](https://prometheus.med.utah.edu/~bwjones/wp-content/uploads/2012/04/iPhone-Retina-Display2.jpg ":size=600")
 
 <p align="center"><a href="https://prometheus.med.utah.edu/~bwjones/2012/04/retina-display-revisited-for-the-ipad/"><em>iPhone 4 retina display</em></a></p>
 
 <br>
 
-After mapping each logical pixel (image, software) to a physical pixel (light, hardware), we display a complete image.
+After mapping each logical pixel (image, software) to a physical pixel (light,
+hardware), we display a complete image.
 
 <br>
 
-![Close up of phone screen showing pixels](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Non-Retina_Display.jpg/640px-Non-Retina_Display.jpg ':size=600')
+![Close up of phone screen showing pixels](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Non-Retina_Display.jpg/640px-Non-Retina_Display.jpg ":size=600")
 
 <p align="center"><a href="https://en.wikipedia.org/wiki/Retina_display"><em>Visible pixels of the iPhone 3</em></a></p>
 
@@ -49,9 +53,11 @@ After mapping each logical pixel (image, software) to a physical pixel (light, h
 
 ## Image Size
 
-The size of digital images are specified in pixels using the format **Width x Height**.
+The size of digital images are specified in pixels using the format **Width x
+Height**.
 
-In other words, how many tiny little "color squares" the image contains horizontally vs vertically.
+In other words, how many tiny little "color squares" the image contains
+horizontally vs vertically.
 
 <br>
 
@@ -68,26 +74,32 @@ For example, the image below is 640 x 480 pixels.
 
 To inspect the size of an image you have two options:
 
-
 1. Download the image and inspect the file properties.
-2. If using Firefox, right-click and select "Inspect" -- we can view the source HTML of the picture this way, which generally includes the resolution as a property.
+2. If using Firefox, right-click and select "Inspect" -- we can view the source
+   HTML of the picture this way, which generally includes the resolution as a
+   property.
 
 <br>
 
 ## Resolution
 
-When dealing with digital images, **the term resolution can sometimes refer to two different meanings:**
+When dealing with digital images, **the term resolution can sometimes refer to
+two different meanings:**
 
-1. The total number of pixels of an image or screen, usually given per dimension (width x height).
-2. The number of pixels per unit length length. This is usually referred to as **pixel density**, with unit PPI (pixels per inch) or ppcm (pixels per cm).
+1. The total number of pixels of an image or screen, usually given per dimension
+   (width x height).
+2. The number of pixels per unit length length. This is usually referred to as
+   **pixel density**, with unit PPI (pixels per inch) or ppcm (pixels per cm).
 
 <br>
 
 ### Resolution as pixels size
 
-To talk about resolution as the number of pixels an image contains is effectively the same as describing its size.
+To talk about resolution as the number of pixels an image contains is
+effectively the same as describing its size.
 
-> The more pixels an image contains, the more detail it can store in the form of subtle differences in shades from one pixel to another.
+> The more pixels an image contains, the more detail it can store in the form of
+> subtle differences in shades from one pixel to another.
 
 <br>
 
@@ -97,17 +109,21 @@ To talk about resolution as the number of pixels an image contains is effectivel
 
 <br>
 
-It is also common to see the pixel count resolution given as the total number of pixels in an image.
+It is also common to see the pixel count resolution given as the total number of
+pixels in an image.
 
-For example, an image of 6,000 × 4,000 pixels has in total 24,000,000 pixels, or 24 MP (megapixels).
+For example, an image of 6,000 × 4,000 pixels has in total 24,000,000 pixels, or
+24 MP (megapixels).
 
-Camera sensors are commonly rated in megapixels because that is how many distinct pixels they capture in one photo.
+Camera sensors are commonly rated in megapixels because that is how many
+distinct pixels they capture in one photo.
 
 <br>
 
 #### Screen resolutions
 
-Screen resolutions are typically measured as the vertical or horizontal pixels dimensions of a monitor.
+Screen resolutions are typically measured as the vertical or horizontal pixels
+dimensions of a monitor.
 
 <br>
 
@@ -119,7 +135,8 @@ Screen resolutions are typically measured as the vertical or horizontal pixels d
 
 ### Resolution as pixel density
 
-> Pixel density describes how many pixels fit in a unit length (PPI or ppcm: pixels per inch/cm respectively)  
+> Pixel density describes how many pixels fit in a unit length (PPI or ppcm:
+> pixels per inch/cm respectively)
 
 <br>
 
@@ -129,19 +146,23 @@ Screen resolutions are typically measured as the vertical or horizontal pixels d
 
 <br>
 
-PPIs are commonly mistaken by DPI (dots per inch), however, DPI's are normally only applicable when dealing with printers.
+PPIs are commonly mistaken by DPI (dots per inch), however, DPI's are normally
+only applicable when dealing with printers.
 
 <br>
 
-**Apple's retina displays** are one example of screens that have a higher pixel density than traditional screens.
+**Apple's retina displays** are one example of screens that have a higher pixel
+density than traditional screens.
 
 <br>
 
-![Diagram: standard-resolution screen with 4 pixels versus high-resolution screen with 16 pixels](https://www.internetingishard.com/html-and-css/responsive-images/standard-vs-retina-resolution-64f6b6.png ':size=600')
+![Diagram: standard-resolution screen with 4 pixels versus high-resolution screen with 16 pixels](https://www.internetingishard.com/html-and-css/responsive-images/standard-vs-retina-resolution-64f6b6.png ":size=600")
 
 <p align="center"><a href="https://www.internetingishard.com/html-and-css/responsive-images/"><em>Standart vs Retina Resolution by Interneting is Hard</em></a></p>
 
-One quick method for estimating the PPI of a monitor, when all that we know is the resolution (width *w* and height *h*) diagonal length of the monitor *L*, is to use Pythagorean theorem:
+One quick method for estimating the PPI of a monitor, when all that we know is
+the resolution (width _w_ and height _h_) diagonal length of the monitor _L_, is
+to use Pythagorean theorem:
 
 ```
 $$
@@ -153,9 +174,11 @@ $$
 
 ## Aspect Ratio
 
-The aspect ratio of an image or a screen is equal to it's width divided by it's height.
+The aspect ratio of an image or a screen is equal to it's width divided by it's
+height.
 
-For example, for an image with dimensions 1920 x 1080 pixels, the aspect ration is:
+For example, for an image with dimensions 1920 x 1080 pixels, the aspect ration
+is:
 
 <br>
 
@@ -163,13 +186,15 @@ For example, for an image with dimensions 1920 x 1080 pixels, the aspect ration 
 
 <br>
 
->  An image can be cropped to a have a specific aspect ratio.
+> An image can be cropped to a have a specific aspect ratio.
 >
-> However, if the image is stretched or shrunk without respecting it's aspect ratio, the image will be deformed.
+> However, if the image is stretched or shrunk without respecting it's aspect
+> ratio, the image will be deformed.
 
 <br>
 
-In the image below the landscape image is being cropped to multiple images of different aspect ratios (follow the colored lines).
+In the image below the landscape image is being cropped to multiple images of
+different aspect ratios (follow the colored lines).
 
 <br>
 
@@ -177,19 +202,22 @@ In the image below the landscape image is being cropped to multiple images of di
 
 <p align="center"><a href="https://photographylife.com/aspect-ratio"><em>Image being cropped to different aspect ratios.</em></a></p>
 
-   <br>
+<br>
 
-An image can be resized while respecting the aspect ratio by changing the width and the height by the same amount.
+An image can be resized while respecting the aspect ratio by changing the width
+and the height by the same amount.
 
-If the width and the height are changed by different amounts, the image is distorted. 
+If the width and the height are changed by different amounts, the image is
+distorted.
 
-![animation of image being sized while respecting aspect ration and distorting it.](assets/res-aspect_ratio_deforming.gif ':size=600')
+![animation of image being sized while respecting aspect ration and distorting it.](assets/res-aspect_ratio_deforming.gif ":size=600")
 
 <br>
 
 ## Raster vs Vector Image Types
 
-So far we've focused on storing image information as a pixel grid. However, there is a second way of storing image information.
+So far we've focused on storing image information as a pixel grid. However,
+there is a second way of storing image information.
 
 <br>
 
@@ -199,7 +227,7 @@ So far we've focused on storing image information as a pixel grid. However, ther
 
 <br>
 
-![Picture](https://ik.imagekit.io/pjklwpg7s/wp-content/uploads/2019/10/shutterstock_1115231174-Converted.jpg ':size=500')
+![Picture](https://ik.imagekit.io/pjklwpg7s/wp-content/uploads/2019/10/shutterstock_1115231174-Converted.jpg ":size=500")
 
 <p align="center"><a href="https://www.adobe.com/ca/creativecloud/file-types/image/comparison/raster-vs-vector.html"><em>Vector vs Raster Files</em></a></p>
 
@@ -211,23 +239,23 @@ So far we've focused on storing image information as a pixel grid. However, ther
 
 <br>
 
-
-
 ![Suppose the  in the top left corner is an RGB bitmap image. When zoomed in, it might look like the big smiley face to the right. Every square represents a pixel. Zoomed in further we see three pixels whose colors are constructed by adding the values for red, green and blue.](https://academickids.com/encyclopedia/images/6/6e/Rgb-raster-image.png)
 
 <p align="center"><a href="https://academickids.com/encyclopedia/index.php/Raster_graphics"><em>Raster graphics</em></a></p>
 
 <br>
 
-There are many types of raster image file types, each one has it's pros and cons.
+There are many types of raster image file types, each one has it's pros and
+cons.
 
-Some common formats for the web are `.jpeg`, `.png`, `.gif` and `.webp`. 
+Some common formats for the web are `.jpeg`, `.png`, `.gif` and `.webp`.
 
 <br>
 
 #### JPEG
 
-[Jpeg](https://en.wikipedia.org/wiki/JPEG) (joint photographic experts group) also known as `.jpg`. Is widely used in digital cameras and the web.
+[Jpeg](https://en.wikipedia.org/wiki/JPEG) (joint photographic experts group)
+also known as `.jpg`. Is widely used in digital cameras and the web.
 
 - Lossy compression.
 - 24-bit color (up to 16million colors).
@@ -235,11 +263,10 @@ Some common formats for the web are `.jpeg`, `.png`, `.gif` and `.webp`.
 - No animation.
 - Typically smaller in size.
 
-
-
 #### PNG
 
-[Png](https://en.wikipedia.org/wiki/Portable_Network_Graphics) (portable network graphics). Typically used for the web.
+[Png](https://en.wikipedia.org/wiki/Portable_Network_Graphics) (portable network
+graphics). Typically used for the web.
 
 - Lossless compression.
 - 8-bit (256 colors) or 24-bit colors.
@@ -247,11 +274,10 @@ Some common formats for the web are `.jpeg`, `.png`, `.gif` and `.webp`.
 - No animation.
 - Typically larger in size than jpeg.
 
-
-
 #### GIF
 
-[Gif](https://en.wikipedia.org/wiki/GIF) (graphics interchange format). Old format but still popular on the web due to animations.
+[Gif](https://en.wikipedia.org/wiki/GIF) (graphics interchange format). Old
+format but still popular on the web due to animations.
 
 - Lossless compression.
 - Only 256 colors
@@ -259,13 +285,10 @@ Some common formats for the web are `.jpeg`, `.png`, `.gif` and `.webp`.
 - Allows animation.
 - Typically smaller in size than jpeg.
 
-
-
-
-
 #### WebP
 
-[WebP](https://en.wikipedia.org/wiki/WebP) is Google's new image format introduced in 2010 so it is not widely adopted yet.
+[WebP](https://en.wikipedia.org/wiki/WebP) is Google's new image format
+introduced in 2010 so it is not widely adopted yet.
 
 - Lossless and lossy compression.
 - 24-bit color.
@@ -277,14 +300,15 @@ Some common formats for the web are `.jpeg`, `.png`, `.gif` and `.webp`.
 
 ### Vector Images
 
-**Vector images** are defined using algorithms. The shapes and paths that compose a vector image are described by math and therefore can create perfect lines at any zoom level.
+**Vector images** are defined using algorithms. The shapes and paths that
+compose a vector image are described by math and therefore can create perfect
+lines at any zoom level.
 
 <br>
 
 One of the images below is a raster image and the other is a vector image.
 
-
-![svg image of a monitor for comparison with png](assets/res-comparison-svg.svg ':size=256')
+![svg image of a monitor for comparison with png](assets/res-comparison-svg.svg ":size=256")
 
 ![png image of a monitor for comparison with svg](assets/res-comparison-png.png)
 
@@ -292,17 +316,20 @@ One of the images below is a raster image and the other is a vector image.
 
 <br>
 
-The vector image above has 3.7 kB in size while the raster equivalent has 9.5 kB. This is a 2.5x size difference.
+The vector image above has 3.7 kB in size while the raster equivalent has 9.5
+kB. This is a 2.5x size difference.
 
 <br>
 
-> In addition to creating images with perfect definition, vector images are generally much smaller in size than raster formats.
+> In addition to creating images with perfect definition, vector images are
+> generally much smaller in size than raster formats.
 
 <br>
 
 #### SVGs
 
-[Scalable Vector Graphics (SVG)](https://developer.mozilla.org/en-US/docs/Web/SVG) is the most commonly used example of vector images.
+[Scalable Vector Graphics (SVG)](https://developer.mozilla.org/en-US/docs/Web/SVG)
+is the most commonly used example of vector images.
 
 <br>
 
@@ -311,9 +338,9 @@ These are the contents of a simple svg image:
 <br>
 
 ```html
-<svg width="300" height="200" version="1.1" baseProfile="full" >
-      <rect width="100%" height="100%" fill="black" />
-      <circle cx="150" cy="100" r="90" fill="blue" />
+<svg width="300" height="200" version="1.1" baseProfile="full">
+  <rect width="100%" height="100%" fill="black" />
+  <circle cx="150" cy="100" r="90" fill="blue" />
 </svg>
 ```
 
@@ -325,18 +352,21 @@ These are the contents of a simple svg image:
 </div>
 <br>
 
-In the svg above, `cx` and `cy` are the coordinates of the center of the circle. `r` is the radius.
+In the svg above, `cx` and `cy` are the coordinates of the center of the circle.
+`r` is the radius.
 
 <br>
 
-Below are two websites with a database of SVG's that are free to use (attribution required):
+Below are two websites with a database of SVG's that are free to use
+(attribution required):
 
 - [Flaticon.com](https://www.flaticon.com/)
 - [freesvg.org](https://freesvg.org/)
 
 <br>
 
-SVGs are commonly found in websites such as the navigation bar of Pexels Video website:
+SVGs are commonly found in websites such as the navigation bar of Pexels Video
+website:
 
 <br>
 
@@ -344,13 +374,15 @@ SVGs are commonly found in websites such as the navigation bar of Pexels Video w
 
 <br>
 
-This nav bar uses three different SVG's: the Pexels logo (left) and two icons (search and hamburger menu on the right).
+This nav bar uses three different SVG's: the Pexels logo (left) and two icons
+(search and hamburger menu on the right).
 
 <br>
 
 #### Limitations of vector images
 
-Because all shapes in vector images must be described mathematically, they cannot be used to capture real-life pictures.
+Because all shapes in vector images must be described mathematically, they
+cannot be used to capture real-life pictures.
 
 <br>
 
@@ -363,7 +395,8 @@ SVG images are best used for:
 
 <br>
 
-> A photograph cannot be exported to svg. It must be "constructed" into an svg approximation.
+> A photograph cannot be exported to svg. It must be "constructed" into an svg
+> approximation.
 
 Conversion programs exist but can only take you so far.
 
@@ -379,25 +412,27 @@ Below is a summary table for the image file formats covered in this chapter:
 
 <br>
 
-|                          **Format**                          | **Type** | **Transparency** | **Animation** |
-| :----------------------------------------------------------: | :------: | :--------------: | :-----------: |
+|                           **Format**                            | **Type** | **Transparency** | **Animation** |
+| :-------------------------------------------------------------: | :------: | :--------------: | :-----------: |
 | [GIF](http://en.wikipedia.org/wiki/Graphics_Interchange_Format) |  Raster  |       Yes        |      Yes      |
-| [PNG](http://en.wikipedia.org/wiki/Portable_Network_Graphics) |  Raster  |       Yes        |      No       |
-|          [JPEG](http://en.wikipedia.org/wiki/JPEG)           |  Raster  |        No        |      No       |
-|          [WebP](http://en.wikipedia.org/wiki/WebP)           |  Raster  |       Yes        |      Yes      |
-|   [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)    |  Vector  |       Yes        |      Yes      |
+|  [PNG](http://en.wikipedia.org/wiki/Portable_Network_Graphics)  |  Raster  |       Yes        |      No       |
+|            [JPEG](http://en.wikipedia.org/wiki/JPEG)            |  Raster  |        No        |      No       |
+|            [WebP](http://en.wikipedia.org/wiki/WebP)            |  Raster  |       Yes        |      Yes      |
+|     [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)     |  Vector  |       Yes        |      Yes      |
 
 <br>
 
 ## Diving Deeper (optional)
 
-For a more **detailed description of popular image file formats** see the article below:
+For a more **detailed description of popular image file formats** see the
+article below:
 
-[Understanding the Most Popular Image File Types and Formats](https://1stwebdesigner.com/image-file-types/) by 1stwebdesigner.com
+[Understanding the Most Popular Image File Types and Formats](https://1stwebdesigner.com/image-file-types/)
+by 1stwebdesigner.com
 
 <br>
 
 For a closer comparison of SVG vs. PNG vs JPEG:
 
-[SVG vs. PNG vs JPEG](https://genkihagata.com/blog/svg-vs-flat-images.html), genkihagata.com
-
+[SVG vs. PNG vs JPEG](https://genkihagata.com/blog/svg-vs-flat-images.html),
+genkihagata.com
