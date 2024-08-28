@@ -1,7 +1,7 @@
 **Home**
 - [About](/)
 
-
+<!--
 **Week 12**
 - [Diagramming Tools](wk12/diagramming_software)
 - [Flowcharts](wk12/flowcharts)
@@ -47,6 +47,7 @@
 **Week 3**
 - [Intro to MS Word](wk2/intro-word.md)
 - [Tabs, Foot-Head, Pg no, Images & Spelling](wk3/tab-foot-head-pg-images-review.md)
+-->
 
 **Week 1-2**
 - [Lab 1 Instructions](wk2/lab1-compression.md)
