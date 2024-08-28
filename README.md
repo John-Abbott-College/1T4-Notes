@@ -20,6 +20,9 @@ This webpage was adapted with permission from [Mauricio Buschinell's](https://gi
 
 This page is open source, visit the [source code on GitHub](https://github.com/michaelhaaf/1T6-F22).
 
+### To Access the Site go to:
+https://john-abbott-college.github.io/1T4-Notes/#/
+
 ### Download and run locally
 
 You can have your own local copy of these notes:
