@@ -38,12 +38,12 @@
 **Week 5**
 - [Intro to Command Line](wk7/intro-command-line)
 - [Scripting w/ PowerShell](wk7/pwsh_scripting)
-
+-->
 **Week 4**
 - [Footnotes & Bibliography](wk4/footnotes-bibliography.md)
 - [One Drive](wk3/one-drive.md)
 - [Collaborative Editing](wk3/collaborative-editing.md)
--->
+
 
 **Week 3**
 - [Intro to MS Word](wk2/intro-word.md)
