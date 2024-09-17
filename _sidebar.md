@@ -29,7 +29,7 @@
 - [Excel Functions](wk5/excel_functions)
 - [Excel Charts](wk5/excel_chart)
 - [Sorting Filtering & Formatting](wk6/sorting-filtering-formatting)
-
+-->
 **Week 6**
 - [Scripting w/ Bash](wk6/bash_scripting)
 - [Assignment 2 Instructions](wk7/pwsh_scripting_assignment)
@@ -38,7 +38,7 @@
 **Week 5**
 - [Intro to Command Line](wk7/intro-command-line)
 - [Scripting w/ PowerShell](wk7/pwsh_scripting)
--->
+
 **Week 4**
 - [Footnotes & Bibliography](wk4/footnotes-bibliography.md)
 - [One Drive](wk3/one-drive.md)
