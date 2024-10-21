@@ -1,7 +1,7 @@
 **Home**
 - [About](/)
 
-<!--
+
 **Week 12**
 - [Diagramming Tools](wk12/diagramming_software)
 - [Flowcharts](wk12/flowcharts)
@@ -29,7 +29,7 @@
 - [Excel Functions](wk5/excel_functions)
 - [Excel Charts](wk5/excel_chart)
 - [Sorting Filtering & Formatting](wk6/sorting-filtering-formatting)
--->
+
 **Week 6**
 - [Scripting w/ Bash](wk6/bash_scripting)
 - [Assignment 2 Instructions](wk7/pwsh_scripting_assignment)
@@ -43,7 +43,6 @@
 - [Footnotes & Bibliography](wk4/footnotes-bibliography.md)
 - [One Drive](wk3/one-drive.md)
 - [Collaborative Editing](wk3/collaborative-editing.md)
-
 
 **Week 3**
 - [Intro to MS Word](wk2/intro-word.md)
